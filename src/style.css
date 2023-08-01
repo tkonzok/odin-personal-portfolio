@@ -94,9 +94,15 @@ main h2 {
   box-shadow: 2px 2px 10px 2px #000000;
   display: grid;
   grid-template-columns: 1fr 48px 48px;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: auto;
   padding: 0 1rem;
   background-color: #fff;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 1rem;
 }
 
 h3 {
@@ -110,7 +116,8 @@ h3 {
   align-self: center;
 }
 
-.project-info > p {
+.project-info > p,
+.project-info > ul {
   grid-column: span 3;
   text-align: top;
   margin-top: 0;

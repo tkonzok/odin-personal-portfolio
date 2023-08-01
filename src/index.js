@@ -19,7 +19,8 @@ import Screenshot04 from './project-screenshots/Screenshot_Dashboard.png';
 import Screenshot05 from './project-screenshots/Screenshot_RPS.png';
 import Screenshot06 from './project-screenshots/Screenshot_Tic-Tac-Toe.png';
 import Screenshot07 from './project-screenshots/Screenshot_Etch-A-Sketch.png';
-import Screenshot08 from './project-screenshots/Screenshot_CV.png';
+import Screenshot08 from './project-screenshots/Screenshot_Landing.png';
+import Screenshot09 from './project-screenshots/Screenshot_CV.png';
 
 const profilePic = document.querySelector('.profile-img')
 profilePic.srcset = `${ProfilePic01S} 320w, ${ProfilePic01M} 640w, ${ProfilePic01L} 960w`
@@ -27,7 +28,7 @@ profilePic.srcset = `${ProfilePic01S} 320w, ${ProfilePic01M} 640w, ${ProfilePic0
 const contactPic = document.querySelector('.contact-image')
 contactPic.srcset = `${ProfilePic02S} 320w, ${ProfilePic02M} 640w, ${ProfilePic02L} 960w`
 
-let screenshots = [Screenshot01, Screenshot02, Screenshot03, Screenshot04, Screenshot05, Screenshot06, Screenshot07, Screenshot08];
+let screenshots = [Screenshot01, Screenshot02, Screenshot03, Screenshot04, Screenshot05, Screenshot06, Screenshot07, Screenshot08, Screenshot09];
 const tiles = document.querySelectorAll('.project-screenshot')
 for (let i = 0; i < screenshots.length; i++) {
     tiles[i].srcset = `${screenshots[i]} 600w`
