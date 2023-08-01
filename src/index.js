@@ -5,6 +5,7 @@ import Linkedin from './linkedin-plain.svg';
 import Xing from './xing.svg';
 import Email from './email.svg';
 import Phone from './phone.svg';
+import Open from './open-in-new.svg';
 import ProfilePic01S from './profile-pic-01_320.jpg';
 import ProfilePic01M from './profile-pic-01_640.jpg';
 import ProfilePic01L from './profile-pic-01_960.jpg';
@@ -55,4 +56,9 @@ for (const img of emailImg) {
 const phoneImg = document.querySelectorAll('.phone')
 for (const img of phoneImg) {
     img.src = Phone
+}
+
+const openImg = document.querySelectorAll('.open')
+for (const img of openImg) {
+    img.src = Open
 }
