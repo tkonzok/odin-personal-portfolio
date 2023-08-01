@@ -129,12 +129,12 @@ body > footer {
 .info {
   display: grid;
   grid-template-columns: 40px 1fr;
+  padding-top: 2rem;
 }
 
 .info * {
   margin: 0.5rem 0;
   align-self: center;
-  padding-top: 2rem;
 }
 
 .span {
