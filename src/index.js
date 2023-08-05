@@ -21,7 +21,7 @@ import Screenshot05 from './project-screenshots/Screenshot_Dashboard.png';
 import Screenshot06 from './project-screenshots/Screenshot_ToDo.png';
 import Screenshot07 from './project-screenshots/Screenshot_Weather.png';
 import Screenshot08 from './project-screenshots/Screenshot_Battleship.png';
-import Screenshot09 from './project-screenshots/Screenshot_CV.png';
+import Screenshot09 from './project-screenshots/Screenshot_CV-application.png';
 
 const profilePic = document.querySelector('.profile-img')
 profilePic.srcset = `${ProfilePic01S} 320w, ${ProfilePic01M} 640w, ${ProfilePic01L} 960w`
