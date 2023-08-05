@@ -87,7 +87,7 @@ main h2 {
 .tile {
   display: grid;
   grid-template-columns: min(calc(100vw - 2rem), 600px);
-  grid-template-rows: 3fr 2fr;
+  grid-template-rows: 1fr auto;
 }
 
 .project-info {
