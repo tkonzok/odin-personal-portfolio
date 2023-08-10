@@ -1,18 +1,22 @@
 import './normalize.css';
 import './style.css';
+
+import { MyWork } from './myWork'
+
 import Github from './github-original.svg';
 import Linkedin from './linkedin-plain.svg';
 import Xing from './xing.svg';
 import Email from './email.svg';
 import Phone from './phone.svg';
 import Open from './open-in-new.svg';
+
 import ProfilePic01S from './profile-pic-01_320.jpg';
 import ProfilePic01M from './profile-pic-01_640.jpg';
 import ProfilePic01L from './profile-pic-01_960.jpg';
 import ProfilePic02S from './profile-pic-02_320.jpg';
 import ProfilePic02M from './profile-pic-02_640.jpg';
 import ProfilePic02L from './profile-pic-02_960.jpg';
-import Screenshot00 from './project-screenshots/Screenshot_Resume.png';
+/*
 import Screenshot01 from './project-screenshots/Screenshot_Landing.png';
 import Screenshot02 from './project-screenshots/Screenshot_Etch-A-Sketch.png';
 import Screenshot03 from './project-screenshots/Screenshot_Tic-Tac-Toe.png';
@@ -23,18 +27,23 @@ import Screenshot07 from './project-screenshots/Screenshot_Weather.png';
 import Screenshot08 from './project-screenshots/Screenshot_Battleship.png';
 import Screenshot09 from './project-screenshots/Screenshot_CV-application.png';
 import Screenshot10 from './project-screenshots/Screenshot_Memory.png';
-
+*/
 const profilePic = document.querySelector('.profile-img')
 profilePic.srcset = `${ProfilePic01S} 320w, ${ProfilePic01M} 640w, ${ProfilePic01L} 960w`
 
 const contactPic = document.querySelector('.contact-image')
 contactPic.srcset = `${ProfilePic02S} 320w, ${ProfilePic02M} 640w, ${ProfilePic02L} 960w`
 
-let screenshots = [Screenshot10, Screenshot09, Screenshot08, Screenshot07, Screenshot06, Screenshot05, Screenshot04, Screenshot03, Screenshot02, Screenshot01, Screenshot00];
+/*
+let screenshots = [Screenshot10, Screenshot09, Screenshot08, Screenshot07, Screenshot06, Screenshot05, Screenshot04, Screenshot03, Screenshot02, Screenshot01];
 const tiles = document.querySelectorAll('.project-screenshot')
 for (let i = 0; i < screenshots.length; i++) {
     tiles[i].srcset = `${screenshots[i]} 600w`
 }
+*/
+
+const myWork = new MyWork();
+myWork.loadImages();
 
 const linkedinImg = document.querySelectorAll('.linkedin')
 for (const img of linkedinImg) {
