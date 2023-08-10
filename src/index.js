@@ -43,7 +43,10 @@ for (let i = 0; i < screenshots.length; i++) {
 */
 
 const myWork = new MyWork();
+myWork.buildDom();
 myWork.loadImages();
+myWork.loadInfos();
+
 
 const linkedinImg = document.querySelectorAll('.linkedin')
 for (const img of linkedinImg) {
