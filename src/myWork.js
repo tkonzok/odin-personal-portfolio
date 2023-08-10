@@ -16,11 +16,15 @@ class MyWork {
             tile.classList.add('tile')
             gridContainter.appendChild(tile)
 
+            const imageLink = document.createElement('a')
+            imageLink.classList.add('project-screenshot-link')
+            tile.appendChild(imageLink);
+
             const image = document.createElement('img');
             image.classList.add('project-screenshot')
             image.src = '#';
             image.sizes = '(max-width: 48em) min(calc(100vw - 2rem), 600px), 320px';
-            tile.appendChild(image);
+            imageLink.appendChild(image);
 
             const info = document.createElement('div');
             info.classList.add('project-info');
@@ -80,6 +84,11 @@ class MyWork {
         for (let i = 0; i < tiles.length; i++) {
             tiles[i].srcset = `${imagePath(`./${this.dataset.data[i].screenshot}.png`)} 600w`;
             tiles[i].alt = `Screenshot of project ${this.dataset.data[i].title}`;
+        }
+
+        const tilesLink = document.querySelectorAll('.project-screenshot-link')
+        for (let i = 0; i < tiles.length; i++) {
+            tilesLink[i].href = this.dataset.data[i].livePreview;
         }
 
         const githubImg = document.querySelectorAll('.github')

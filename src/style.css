@@ -165,7 +165,7 @@ a:visited {
   color: inherit;
 }
 
-a:hover {
+a:hover:not(.project-screenshot-link) {
   transform: scale(1.1);
 }
 
