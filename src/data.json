@@ -1,15 +1,22 @@
 {
   "data": [
     {
+      "title": "Band Page & Webshop",
+      "description": "React project on days 42 (11.8.) - ?? of <a href='https://theodinproject.com/lessons/node-path-react-new-shopping-cart'><u>'The Odin Project' web development course</u></a>. <br> <br><ul><b>Main focusses:</b><li>React Routing</li><li>Testing in React (vitest)</li></ul>",
+      "screenshot": "Screenshot_Nilpfred",
+      "github": "https://github.com/tkonzok/odin-shopping-cart",
+      "livePreview": "https://nilpfred.vercel.app/"
+    },
+    {
       "title": "Memory Game",
-      "description": "React project on days 38 - 39 of <a href='https://theodinproject.com/lessons/node-path-react-new-memory-card'><u>'The Odin Project' web development course</u></a>. <br> <br><ul><b>Main focus:</b><li>Second React project (how to use effect)</li></ul>",
+      "description": "React project on days 38 - 39 of <a href='https://theodinproject.com/lessons/node-path-react-new-memory-card'><u>'The Odin Project' web development course</u></a>. <br> <br><ul><b>Main focusses:</b><li>useEffect hook</li><li>fetching external data in React</li></ul>",
       "screenshot": "Screenshot_Memory",
       "github": "https://github.com/tkonzok/odin-memory-card",
       "livePreview": "https://rick-and-morty-memory.vercel.app/"
     },
     {
       "title": "CV Application",
-      "description": "React project on days 35 - 37 of <a href='https://theodinproject.com/lessons/node-path-react-new-cv-application'><u>'The Odin Project' web development course</u></a>. <br> <br><ul><b>Main focuses:</b><li>First React project (how to use state)</li><li>Using Vite and Vercel</li></ul>",
+      "description": "React project on days 35 - 37 of <a href='https://theodinproject.com/lessons/node-path-react-new-cv-application'><u>'The Odin Project' web development course</u></a>. <br> <br><ul><b>Main focuses:</b><li>Using React.js, Vite and Vercel</li><li>useState hook</li></ul>",
       "screenshot": "Screenshot_CV-application",
       "github": "https://github.com/tkonzok/odin-cv-application",
       "livePreview": "https://tkonzok-odin-cv-application.vercel.app/"
